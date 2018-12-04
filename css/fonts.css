@@ -1,0 +1,20 @@
+/* Neroda Sergey 2018 : Simple.psd */
+
+/* include fonts */
+
+@font-face {
+    font-family: "TimesNewRoman";
+    src:url("../fonts/TimesNewRomanRegular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Arial";
+    src:url(../fonts/Arial.ttf) format("truetype");
+}
+@font-face {
+    font-family: "NotoSans";
+    src:url(../fonts/Noto Sans.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Lobster";
+    src:url(../fonts/Lobster.ttf) format("truetype");
+}

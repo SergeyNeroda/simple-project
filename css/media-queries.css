@@ -1,0 +1,251 @@
+/* Neroda Sergey 2018 : Simple.psd */
+
+/* media-queries */
+
+@media screen and (max-width:1000px) {
+
+    /* HEADER-RESPONSIVE */
+    .topnav a {
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #85423f;
+        padding: 4px 7px;
+    }
+
+    /* SLIDER */
+    .wrap {
+        height: 400px;
+    }
+
+    /* CONTACT BOX-RESPONSIVE */
+    .footer-menu-li a {
+        color: #504f4f;
+        font-size: 7pt;
+        padding: 0px 0px;
+        text-transform: uppercase;
+    }
+
+    .footer-menu li a:not(:first-child) {
+        margin-left: 7px;
+    }
+
+    input[type="email"] {
+        font-size: 9px;
+        width: 90px;
+        font-family: "Arial";
+        border-radius: 0px;
+    }
+
+    button {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    /* POINTS LINE-RESPONSIVE */
+    hr {
+        border: none;
+        border-top: 2px dotted #b3adad;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .line {
+        display: grid;
+        grid-template-columns: 48% 4% 48%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:760px) {
+
+    /* HEADER-RESPONSIVE */
+    .header-logo {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .header-container {
+        display: block;
+    }
+    .main-menu {
+        padding-top: 0px;
+    }
+    .topnav a {
+        display: none;
+    }
+    .icon-nav-div {
+        width: 100%;
+        background: #eb6c10;
+        height: 30px;
+    }
+    .icon-nav {
+        display: block;
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .icon-nav:hover {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .icon-nav:visited {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .icon-nav:active {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a {
+        display: block;
+        text-align: left;
+        color: #5d0400;
+        font-weight: 400;
+        font-family: "TimesNewRoman";
+    }
+    .topnav.responsive a:hover {
+        background: #eb6c10;
+        color: #ffffff;
+    }
+
+    /* SLIDER */
+    .wrap {
+        height: 300px;
+    }
+
+    /* ARTICLES BOX-RESPONSIVE */
+    .articles-box {
+        display: block;
+    }
+
+    .grid-item-welcome {
+        display: block;
+    }
+    .grid-item2 {
+        display: block;
+    }
+
+    .articles-welcome-1 {
+        text-align: center;
+        margin: auto;
+    }
+    .articles-welcome-2 {
+        text-align: center;
+        margin: auto;
+    }
+    .articles-welcome-3 {
+        text-align: center;
+        margin: auto;
+    }
+
+    .features {
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .features-punkt {
+        display: block;
+        margin: 10px 20px;
+    }
+    .features-punkt li {
+        line-height: 15px;
+    }
+
+    /* CAROUSEL-RESPONSIVE */
+    .caption h4 {
+
+        line-height: normal;
+        font-size: 10px;
+
+    }
+
+    .caption p {
+        font-size: 8px;
+        margin-top: 10px;
+        line-height: normal;
+    }
+
+    .btn {
+        background: #eb6c10;
+        color: #ffffff;
+        font-family: "Lobster";
+        font-weight: 500;
+        font-style: italic;
+        margin-top: 6px;
+    }
+
+    .btn.btn-mini {
+        font-size: 1rem;
+        padding: 3px 3px;
+    }
+
+    /* CONTACT BOX-RESPONSIVE */
+    .contact-box {
+        display: block;
+        margin: 20px;
+    }
+
+    .follow-us {
+        display: block;
+
+        text-align: center;
+    }
+
+    .follow-box-1 {
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .follow-box-2 {
+        display: block;
+        margin: 10px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .follow-box-3 {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .footer-menu-li a {
+        font-size: 7pt;
+    }
+
+    .footer-menu li a:not(:first-child) {
+        margin-left: 1px;
+    }
+
+    .email-updates {
+        display: block;
+    }
+
+    .email-box-1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .email-box-2 {
+        margin: 10px;
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .email-box-3 {
+        margin: 10px;
+        text-align: center;
+    }
+
+}
